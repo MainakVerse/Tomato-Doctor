@@ -3,6 +3,8 @@ import tensorflow as tf
 from PIL import Image
 import numpy as np
 import random
+import google.generativeai as genai
+import time
 
 # Configure the app with custom theme and styling
 st.set_page_config(
@@ -493,8 +495,7 @@ def plant_doctor_tab():
             
         if GEMINI_API_KEY:
             # Configure Gemini API
-            import google.generativeai as genai
-            import time
+            
             genai.configure(api_key=GEMINI_API_KEY)
             
             # Function to ask Gemini AI about tomato plants
