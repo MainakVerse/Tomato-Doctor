@@ -632,7 +632,7 @@ def main():
         st.markdown("""
         <div style='text-align: center;'>
             <h4>Tomato Leaf Disease Detector</h4>
-            <p>Powered by AI & Deep Learning</p>
+            <p>Made with 💙 by <a href="https://www.linkedin.com/in/mainak-chaudhuri-127898176/" target="_blank">Mainak</a></p>
         </div>
         """, unsafe_allow_html=True)
     
