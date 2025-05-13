@@ -520,7 +520,7 @@ def plant_doctor_tab():
                 **User's Question:** {query}
                 Provide a clear, concise, and accurate response about tomato plants.
                 """
-                model = genai.GenerativeModel("gemini-1.5-pro-latest")
+                model = genai.GenerativeModel("gemini-2.0-flash")
                 response = model.generate_content(prompt)
                 
                 return response.text
